@@ -8,7 +8,7 @@ import random
 #Initialize geocoder (timeout of 10 seconds to prevent high limit overload)
 geolocator = Nominatim(user_agent="road_geocoder", timeout=10)
 
-#Load the CSV file
+#Load the CSV file (final cleaned data version)
 file_path = 'C:\\Users\\ysj04\\Downloads\\updated6.csv'
 df = pd.read_csv(file_path)
 
