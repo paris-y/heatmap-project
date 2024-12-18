@@ -20,5 +20,5 @@ print("Cleaned Data:")
 print(df)
 
 #Save cleaned DataFrame as a new CSV file
-updated_file_path = 'C:\\Users\\ysj04\\Downloads\\updated2.csv' #Replace with your own file path
-df.to_csv(updated_file_path, index=False)
+cleaned_data_2 = 'C:\\Users\\ysj04\\Downloads\\updated2.csv' #Replace with your own file path
+df.to_csv(cleaned_data_2, index=False)
