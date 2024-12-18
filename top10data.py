@@ -1,7 +1,7 @@
 import pandas as pd
 
 #Load data from CSV, skip first two rows and last column
-file_path = 'C:\\Users\\ysj04\\Downloads\\updated2.csv'
+file_path = 'C:\\Users\\ysj04\\Downloads\\updated2.csv' #Replace with your own file path
 df = pd.read_csv(file_path, header=None, skiprows=2, usecols=[0, 1, 2, 3, 4, 5, 6, 7, 8])
 
 #Rename columns
