@@ -26,4 +26,6 @@ trucks_stats = {
 }
 
 print('AADT Statistics:', aadt_stats)
+print(f"\nAdditional AADT Stats:\nMin: {aadt_min}, Max: {aadt_max}, Mean: {aadt_mean}, Median: {aadt_median}, Std Dev: {aadt_std}")
 print('Trucks Percentage Statistics:', trucks_stats)
+print(f"\nAdditional % Trucks Stats:\nMin: {trucks_min}, Max: {trucks_max}, Mean: {trucks_mean}, Median: {trucks_median}, Std Dev: {trucks_std}")
