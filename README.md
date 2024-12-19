@@ -1,1 +1,2 @@
 # heatmap-project
+This project provides tools for cleaning, analyzing, and visualizing road traffic data. It automates the preprocessing of traffic datasets, generates insightful visualizations, and produces geographical heatmaps of traffic intensity. The primary goal of this project is to process raw traffic data, extract meaningful insights, and visualize patterns for better understanding and decision-making. The overall outcome was that we were able to obtain statistics regarding traffic data and we also separately produced a heatmap of the Queens region. 
